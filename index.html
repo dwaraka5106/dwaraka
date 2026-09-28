@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dwaraka Datha Prasad — B.Tech CSE Student & Web Developer</title>
+<meta name="description" content="Portfolio of Dwaraka Datha Prasad, B.Tech CSE student and web developer building digital experiences and practical applications." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a class="nav__logo" href="#home">DWARAKA<span>.</span></a>
+  <nav class="nav__links" id="navLinks">
+    <a href="#about">ABOUT</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <p class="hero__kicker reveal">HELLO, I'M</p>
+      <h1 class="hero__name reveal">
+        DWARAKA DATHA<br /><span class="outline">PRASAD</span>
+      </h1>
+      <p class="hero__role reveal">B.TECH CSE STUDENT <span class="sep">/</span> WEB DEVELOPER</p>
+      <p class="hero__tag reveal">BUILD<span class="dot">.</span> CREATE<span class="dot">.</span> SOLVE<span class="dot">.</span></p>
+      <p class="hero__desc reveal">
+        I build <em>digital experiences</em> and practical applications that solve real problems.
+      </p>
+      <div class="hero__actions reveal">
+        <a class="btn btn--primary" href="#projects">VIEW PROJECTS</a>
+        <a class="btn btn--ghost" href="resume/resume.pdf" target="_blank" rel="noopener">RESUME</a>
+      </div>
+      <p class="hero__status reveal"><span class="pulse"></span> AVAILABLE FOR INTERNSHIPS</p>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">SCROLL</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__num">01</span>
+        <h2 class="section__title">ABOUT</h2>
+        <span class="section__line"></span>
+      </div>
+      <div class="about">
+        <div class="about__media reveal">
+          <div class="about__frame">
+            <img src="images/profile.jpg" alt="Dwaraka Datha Prasad" onerror="this.closest('.about__frame').classList.add('is-empty')" />
+            <div class="about__fallback">DDP</div>
+          </div>
+        </div>
+        <div class="about__body reveal">
+          <p class="lead">
+            I'm a B.Tech CSE student passionate about <em>web development</em> and building
+            practical digital solutions.
+          </p>
+          <p>
+            I like turning ideas into things people can actually use — clean interfaces,
+            sensible logic, and code that stays readable six months later. Most of my time
+            goes into <em>frontend engineering</em>, and I'm steadily expanding into backend
+            and <em>machine learning</em>.
+          </p>
+          <p>
+            Right now I'm looking for internship opportunities where I can ship real
+            features, learn from good engineers, and keep raising my own bar.
+          </p>
+          <ul class="about__facts">
+            <li><span>FOCUS</span> Web Development</li>
+            <li><span>LEARNING</span> Backend &amp; ML</li>
+            <li><span>BASED IN</span> India</li>
+            <li><span>STATUS</span> Open to internships</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__num">02</span>
+        <h2 class="section__title">SKILLS</h2>
+        <span class="section__line"></span>
+      </div>
+      <div class="skills">
+        <article class="card reveal">
+          <h3 class="card__title">FRONTEND</h3>
+          <ul class="tags">
+            <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive Design</li><li>React</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <h3 class="card__title">BACKEND</h3>
+          <ul class="tags">
+            <li>Node.js</li><li>Python</li><li>REST APIs</li><li>MySQL</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <h3 class="card__title">ML &amp; DATA</h3>
+          <ul class="tags">
+            <li>NumPy</li><li>Pandas</li><li>TensorFlow</li><li>Scikit-learn</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <h3 class="card__title">TOOLS</h3>
+          <ul class="tags">
+            <li>Git</li><li>GitHub</li><li>VS Code</li><li>Figma</li><li>Linux</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__num">03</span>
+        <h2 class="section__title">PROJECTS</h2>
+        <span class="section__line"></span>
+      </div>
+      <div class="projects">
+        <article class="project reveal">
+          <div class="project__thumb">
+            <img src="images/lifesaver.png" alt="LifeSaver project screenshot" onerror="this.closest('.project__thumb').classList.add('is-empty')" />
+            <span class="project__index">01</span>
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">LIFESAVER</h3>
+            <p class="project__desc">
+              An emergency assistance web app that connects people in urgent need with nearby
+              help — fast lookup, clear UI, minimal friction when seconds matter.
+            </p>
+            <ul class="tags tags--sm"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <div class="project__links">
+              <a href="#" class="link">LIVE <span>&#8599;</span></a>
+              <a href="#" class="link">CODE <span>&#8599;</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project__thumb">
+            <img src="images/chitti.png" alt="Chitti project screenshot" onerror="this.closest('.project__thumb').classList.add('is-empty')" />
+            <span class="project__index">02</span>
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">CHITTI</h3>
+            <p class="project__desc">
+              A conversational assistant that answers questions and automates small everyday
+              tasks through a clean chat interface.
+            </p>
+            <ul class="tags tags--sm"><li>Python</li><li>NLP</li><li>JavaScript</li></ul>
+            <div class="project__links">
+              <a href="#" class="link">LIVE <span>&#8599;</span></a>
+              <a href="#" class="link">CODE <span>&#8599;</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project__thumb">
+            <img src="images/mnist.png" alt="MNIST digit recognition project screenshot" onerror="this.closest('.project__thumb').classList.add('is-empty')" />
+            <span class="project__index">03</span>
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">MNIST DIGIT RECOGNITION</h3>
+            <p class="project__desc">
+              A neural network trained to recognise handwritten digits, with a browser canvas
+              where you draw a digit and get a live prediction.
+            </p>
+            <ul class="tags tags--sm"><li>Python</li><li>TensorFlow</li><li>Canvas</li></ul>
+            <div class="project__links">
+              <a href="#" class="link">LIVE <span>&#8599;</span></a>
+              <a href="#" class="link">CODE <span>&#8599;</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--alt" id="contact">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__num">04</span>
+        <h2 class="section__title">CONTACT</h2>
+        <span class="section__line"></span>
+      </div>
+      <div class="contact">
+        <div class="contact__text reveal">
+          <h3 class="contact__big">LET'S BUILD<br /><span class="outline">SOMETHING</span></h3>
+          <p>
+            Have an internship, a project, or just want to talk code? My inbox is open.
+          </p>
+          <a class="contact__mail" href="mailto:dwarakadattaprasad@gmail.com">dwarakadattaprasad@gmail.com</a>
+          <div class="contact__socials">
+            <a href="#" class="link">GITHUB <span>&#8599;</span></a>
+            <a href="#" class="link">LINKEDIN <span>&#8599;</span></a>
+            <a href="resume/resume.pdf" target="_blank" rel="noopener" class="link">RESUME <span>&#8599;</span></a>
+          </div>
+        </div>
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <label>
+            <span>NAME</span>
+            <input type="text" name="name" required placeholder="Your name" />
+          </label>
+          <label>
+            <span>EMAIL</span>
+            <input type="email" name="email" required placeholder="you@example.com" />
+          </label>
+          <label>
+            <span>MESSAGE</span>
+            <textarea name="message" rows="5" required placeholder="What's on your mind?"></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary">SEND MESSAGE</button>
+          <p class="form__note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <span>© <span id="year"></span> DWARAKA DATHA PRASAD</span>
+    <a href="#home" class="footer__top">BACK TO TOP &#8599;</a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
